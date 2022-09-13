@@ -15,6 +15,6 @@ function Track({track}) {
         <td>{BPM}</td>
     </tr>
   )
-}
+};
 
 export default Track
