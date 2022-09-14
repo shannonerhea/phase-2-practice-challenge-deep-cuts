@@ -6,13 +6,13 @@ function Track({track, deleteTrack}) {
   const {image, BPM, title, artist, id} = track
 
   function clickHandler(id) {
-    fetch('http://localhost:8001/tracks/${id}' ,{
+    fetch('http://localhost:8001/tracks/${id}' ,{ // does this even go here
       method: "DELETE"
     })
     deleteTrack(track.id)
   };
 // do i need to add a button to the row line 17
-// button onClick={() => clickHandler(workout.id)} className="delete">Delete 🗑</button>
+// <button onClick={() => clickHandler(track.id)} className="delete">Delete 🗑</button>
   return (
     <tr className="table-row">
         <td className="row-image">
