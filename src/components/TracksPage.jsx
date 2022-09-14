@@ -7,10 +7,10 @@ import TracksList from './TracksList'
 function TracksPage() {
   const [tracks, setTracks] = useState([])
   //console.log(tracks)
-  const baseUrl = 'http://localhost:8001/tracks'
-  
+  const trackData = 'http://localhost:8001/tracks'
+
   useEffect(() => {
-    fetch(baseUrl)
+    fetch(trackData)
     .then(response => response.json())
     .then(tracks => setTracks(tracks))
   },[])
@@ -24,7 +24,7 @@ function TracksPage() {
         artist: artist,
         BPM: parseInt(bpm)
       } 
-      fetch(baseUrl,{
+      fetch(trackData,{
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
