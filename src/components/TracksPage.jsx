@@ -27,7 +27,7 @@ function TracksPage() {
       fetch(trackData,{
         method: 'POST',
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json" // what does this line rly mean
         },
         body: JSON.stringify(newTrackBody)
       })
@@ -36,7 +36,7 @@ function TracksPage() {
         setTracks([...tracks, addedTrack])
       })
     };
-
+// does DELETE request go here? or in form?
   return (
     <div>
       <Search />
