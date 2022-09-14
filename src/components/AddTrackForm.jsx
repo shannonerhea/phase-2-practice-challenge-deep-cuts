@@ -22,6 +22,7 @@ function AddTrackForm({onAddTrack}) {
     })
   };
   //console.log(formData)
+  // i think the DELETE function goes in here somewhere
 
   return (
       <form onSubmit={handleSubmit}>
