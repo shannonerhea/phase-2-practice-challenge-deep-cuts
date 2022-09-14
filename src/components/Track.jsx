@@ -13,6 +13,9 @@ function Track({track, deleteTrack}) {
   };
 // do i need to add a button to the row line 17
 // <button onClick={() => clickHandler(track.id)} className="delete">Delete 🗑</button>
+//DELETE /tracks/:id
+//Example Response:
+//{}
   return (
     <tr className="table-row">
         <td className="row-image">
