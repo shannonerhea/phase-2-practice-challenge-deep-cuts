@@ -3,14 +3,9 @@ import defaultVinyl from '../assets/vinyl_PNG111.png'
 
 function Track({track, deleteTrack}) {
   //console.log(track)
-  const {image, BPM, title, artist, id} = track
+  const {image, BPM, title, artist} = track
 
-  function clickHandler(id) {
-    fetch('http://localhost:8001/tracks/${id}' ,{ // does this even go here
-      method: "DELETE"
-    })
-    deleteTrack(track.id)
-  };
+
 // do i need to add a button to the row line 17
 // <button onClick={() => clickHandler(track.id)} className="delete">Delete 🗑</button>
 //DELETE /tracks/:id
@@ -30,3 +25,11 @@ function Track({track, deleteTrack}) {
 };;
 
 export default Track
+
+
+// //  function clickHandler(id) {
+//   fetch('http://localhost:8001/tracks/${id}' ,{ // does this even go here
+//   method: "DELETE"
+// })
+// deleteTrack(track.id)
+// };

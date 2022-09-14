@@ -36,88 +36,11 @@
       "image": "https://cdn5.beatstars.com/eyJidWNrZXQiOiJidHMtY29udGVudCIsImtleSI6InVzZXJzL3Byb2QvODI0NDExL2ltYWdlL0EzRkRJQjlHQkJTRC8yMDIyMDEyOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiZmlsbCIsIndpZHRoIjoyNDAsImhlaWdodCI6MjQwfX19?t=1643380284285"
     },
     {
-      "image": "gfdhdfghdfgh",
-      "title": "gfgfdghfhgf",
-      "artist": "fgndfgndfgn",
-      "BPM": 5,
+      "image": "",
+      "title": "",
+      "artist": "",
+      "BPM": 7,
       "id": 6
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 7
-    },
-    {
-      "image": "",
-      "title": "bee bop",
-      "artist": "beebop",
-      "BPM": null,
-      "id": 8
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 9
-    },
-    {
-      "image": "https://www.theguardian.com/lifeandstyle/2020/sep/05/what-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants",
-      "title": "Ging",
-      "artist": "Cheddar",
-      "BPM": 100,
-      "id": 10
-    },
-    {
-      "image": "this is not an img",
-      "title": "title",
-      "artist": "artist",
-      "BPM": 2,
-      "id": 11
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 12
-    },
-    {
-      "image": "",
-      "title": "title",
-      "artist": "artist",
-      "BPM": 1,
-      "id": 13
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 14
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 15
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 16
-    },
-    {
-      "image": "",
-      "title": "",
-      "artist": "",
-      "BPM": null,
-      "id": 17
     }
   ]
 }
